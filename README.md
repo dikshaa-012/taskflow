@@ -1,12 +1,24 @@
 # TaskFlow — Full Stack Task Management App
 
-A production-ready task management application built with **Next.js 14**, **MongoDB**, and **JWT authentication**. Built as a 24-hour full-stack technical assessment.
+A production-ready task management application built with **Next.js 14**, **MongoDB**, and **JWT authentication**. 
 
 ## 🚀 Live Demo
-> Deploy to Vercel/Railway and add your URL here
+https://taskflow-blush-six.vercel.app/
 
 ## 📁 GitHub Repository
-> Add your GitHub repo link here
+https://github.com/dikshaa-012/taskflow
+
+---
+
+## Test Credentials
+A demo account is already registered. Use these to log in directly:
+
+| Field | Value |
+|-------|-------|
+| Email | jane@example.com |
+| Password | SecurePass1 |
+
+> Go to [Sign In](https://taskflow-blush-six.vercel.app/login) — no need to register.
 
 ---
 
