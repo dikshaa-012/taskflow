@@ -1,0 +1,39 @@
+.layout {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 30% 20%, rgba(124, 106, 247, 0.1) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 70% 80%, rgba(74, 222, 128, 0.04) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.nav {
+  position: relative;
+  z-index: 10;
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
